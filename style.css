@@ -4,19 +4,20 @@ body {
   height: 100%;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 .main-calc {
   border: 1px solid black;
-  background-color: gray;
+  border-radius: 5px;
+  background-color: #fff;
   width: 300px;
   height: 400px;
   margin: 40px 0px 0px 0px;
-  /* background-size: cover;
-  background-position: center; */
 }
 .main-calc .screen {
-  height: 50px;
+  height: 70px;
   width: 100%;
+  margin-top: 5px;
   background-color: #eee;
   display: flex;
   align-items: center;
@@ -33,7 +34,7 @@ body {
   width: 30%;
   height: 15%;
   margin-bottom: 3px;
-  background: rgba(103, 245, 56, 0.7);
+  background: rgba(245, 132, 66, 0.8);
   border: transparent;
 }
 .main-calc .julia-mala {
