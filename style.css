@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.main-calc {
+  border: 1px solid black;
+  background-color: gray;
+  width: 300px;
+  height: 400px;
+  margin: 40px 0px 0px 0px;
+  /* background-size: cover;
+  background-position: center; */
+}
+.main-calc .screen {
+  height: 50px;
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+.main-calc .keyboard {
+  margin: 20px 0px 0px 10px;
+  width: 100%;
+  height: 250px;
+
+}
+.main-calc input {
+  width: 30%;
+  height: 15%;
+  margin-bottom: 3px;
+  background: rgba(103, 245, 56, 0.7);
+  border: transparent;
+}
+.main-calc .julia-mala {
+  font-family: 'Modak', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
